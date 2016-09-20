@@ -1,0 +1,14 @@
+api_consumer.content:
+    path: '/videos/squidbillies'
+    defaults:
+        _controller: '\Drupal\api_consumer\Controller\ApiController::content'
+        _title: 'API Data'
+    requirements:
+        _permission: 'access content'
+
+api_consumer.show:
+    path: '/videos/squidbillies/{id}'
+    defaults:
+        _controller: '\Drupal\api_consumer\Controller\ApiController::show'
+    requirements:
+        _permission: 'access content'

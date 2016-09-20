@@ -1,0 +1,7 @@
+name: API Consumer
+type: module
+description: Consumes an external API
+package: Custom
+
+type: module
+core: 8.x

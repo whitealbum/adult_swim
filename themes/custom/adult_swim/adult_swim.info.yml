@@ -1,0 +1,10 @@
+name: adult_swim
+type: theme
+description: My Awesome theme
+package: Other
+core: 8.x
+libraries:
+  - adult_swim/global-css
+
+base theme: bartik
+
